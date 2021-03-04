@@ -1,70 +1,41 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>BME ROUTINE</title>
-	<meta name="author" content="pritom">
-	<meta name="keywords" content="bme routine">
-	<style>
-		div{
-			font-size:30px;
-			align-content:center;
-			color:white;
-			text-transform:uppercase;
-		}
-		.on{
-			background-color: rgb(255,255,102);
-			color:black;
-		}
-		.off{
-			background-color:rgb(255,60,40);
-			color:white;
-		}
-		.indicator1{
-			height:20px;
-			width:20px;
-			background-color:rgb(255,60,40);
-		}
-		.indicator2{
-			height:20px;
-			width:20px;
-			background-color:rgb(255,255,102);
-		}
-		.indicator3{
-			height:20px;
-			width:20px;
-			background-color:rgb(50,205,50);
-		}
-		.poss{
-			width:100%;
-		}
-		.lab{
-			background-color:rgb(50,205,50);
-		}
-		
-	</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch</title>
 </head>
-<body bgcolor="black">
-	<div>
-		<table border='4' align="center" class="poss"><caption><B><U>CLASS ROUTINE</U></B></caption>
+<body>
+    <link rel="stylesheet" href="index.css">
+    <script src='index.js'></script>
+    <div id="container1">
+        <div id="container2">
+            <div id="hour"></div>
+            <div id="min"></div>
+            <div id="sec"></div>
+        </div>
+    </div>
+	<br>
+    <div id="container3">
+		<table border='4' align="center" id="poss"><caption><B><U>CLASS ROUTINE</U></B></caption>
 			<tr>
 				<th>day</th>
-				<th>8:00-8:40</th>
-				<th>9:00-9:40</th>
-				<th>10:00-10:40</th>
-				<th>11:00-11:40</th>
-				<th>12:00-12:40</th>
-				<th>1:00-1:40</th>
-				<th>2:00-2:40</th>
-				<th>3:00-3:40</th>
-				<th>4:00-4:40</th>
+				<th>8:00-8:50</th>
+				<th>9:00-9:50</th>
+				<th>10:00-10:50</th>
+				<th>11:00-11:50</th>
+				<th>12:00-12:50</th>
+				<th>1:00-1:50</th>
+				<th>2:00-2:50</th>
+				<th>3:00-3:50</th>
+				<th>4:00-4:50</th>
 			</tr>
 			<tr>
 				<th>sat</th>
-				<td> </td>
-				<td class="on"><a href="https://bdren.zoom.us/j/64673267228">BME 205</a><br>pass= 280526</td>
-				<td class="on"><a href=" https://bdren.zoom.us/j/6702736659?pwd=QTFYRUwxR1V1NjlwZkN2MzRHWHhOUT09">MME 297</a></td>
-				<td class="lab" colspan='3' align="center"><a href=" https://bdren.zoom.us/j/6702736659?pwd=QTFYRUwxR1V1NjlwZkN2MzRHWHhOUT09">MME 298</a></td>
+				<td id="on"><a href="https://bdren.zoom.us/j/62979171553?pwd=a3Ftd2FmOXE3eVBvUmRyV3Bwd284dz09">CSE 391</a></td>
+				<td class="on"><a href=" ">MATH 313</a></td>
+				<td class="on"><a href="https://bdren.zoom.us/j/64673267228">BME 303</a></td>
+				<td class="lab" colspan='3' align="center"><a href=" ">CSE 392</a></td>
 				<td> </td>
 				<td> </td>
 				<td> </td>
@@ -73,22 +44,22 @@
 			<tr>
 				<th>sun</th>
 				<td> </td>
-				<td class="off">BME205 OFFICE HOUR</td>
-				<td class="on"><a href="https://bdren.zoom.us/j/69173943564?pwd=Z1N6RjZTNHlrdTQ3VXZveTNZOC9aZz09">CSE 283</a></td>
+				<td class="off"><a href="https://bdren.zoom.us/j/67621304284?pwd=UFhRTm9zWkJSSEtXK1Fra0lXZjF0Zz09">BME 311</a></td>
+				<td class="on"><a href="https://bdren.zoom.us/j/64673267228">BME 303</a></td>
+				<td class="on"><a href=" ">BME 301</a></td>
+				<td> </td>
+				<td> </td>
+				<td class="lab" colspan='3' align="center"><a href="https://bdren.zoom.us/j/63796682989?pwd=UXV1R0N1aituN3lzWkZCWlJyN1J1UT09">BME 310</td>
 				
-				<td class="lab" colspan='3' align="center"><a href="https://bdren.zoom.us/j/64673267228">BME 206</a><br>pass= 280526</td>
-				<td> </td>
-				<td> </td>
-				<td> </td>
 				
 			</tr>
 			<tr>
 				<th>mon</th>
-				<td> </td>
-				<td class="off"><a href="https://bdren.zoom.us/j/69173943564?pwd=Z1N6RjZTNHlrdTQ3VXZveTNZOC9aZz09">CSE 283 OFFICE HOUR</a></td>
-				<td class="on"><a href="https://bdren.zoom.us/j/64673267228">BME 205</a><br>pass= 280526</td>
-				<td class="on"><a href="https://bdren.zoom.us/j/61661750155?pwd=Y1AvUGhDb2x3aHlqZTN1aHZOOVZPZz09">MME 297</a></td>
-				<td class="on"><a href="https://bdren.zoom.us/j/61353559671?pwd=MC8rRnVyWHZYbDdVN2xOREo3bis3UT09">MATH 215</a></td>
+				<td class="off"><a href="https://bdren.zoom.us/j/62979171553?pwd=a3Ftd2FmOXE3eVBvUmRyV3Bwd284dz09">CSE 391</a></td>
+				<td class="off"><a href=" ">BME 301</a></td>
+				<td class="on"><a href="https://bdren.zoom.us/j/61006208585">MATH 313</td>
+				<td class="on"></td>
+				<td class="on"></td>
 				<td > </td>
 				<td > </td>
 				<td> </td>
@@ -98,36 +69,25 @@
 			<tr>
 				<th>tue</th>
 				<td> </td>
-				<td class="on"><a href="https://us04web.zoom.us/j/3734606931?pwd=b3FKMWFQOUVrVisybFVvTlBnRFROZz09">BME 203</a></td>
-				<td class="on"><a href="https://bdren.zoom.us/j/69173943564?pwd=Z1N6RjZTNHlrdTQ3VXZveTNZOC9aZz09">CSE 283</a></td>
-				<td class="lab" colspan='3' align="center"><a href="https://bdren.zoom.us/j/69976120370?pwd=N3dCK2w0WTlXaU1RMVBQeDVtd3JUQT09">CSE 284</a></td>
+				<td class="on"><a href="https://bdren.zoom.us/j/64673267228">BME 303</a></td>
+				<td class="on"><a href="https://bdren.zoom.us/j/67621304284?pwd=UFhRTm9zWkJSSEtXK1Fra0lXZjF0Zz09">BME 311</a></td>
+				<td class="on"><a href=" ">BME 301</a></td>
 				<td> </td>
 				<td> </td>
-				<td> </td>
+				<td class="lab" colspan='3' align="center"><a href="https://bdren.zoom.us/j/65086089486?pwd=TWVxUG1SUkd2a0VRM3FRNzFXdnBVdz09">BME 300</a></td>
 			</tr>
 			<tr>
 				<th>wed</th>
-				<td class="off"><a href="https://bdren.zoom.us/j/61353559671?pwd=MC8rRnVyWHZYbDdVN2xOREo3bis3UT09">MATH 215 OFFICE HOUR</a></td>
-				<td class="on"><a href="https://bdren.zoom.us/j/5809815941">MATH 215</a></td>
-				<td class="on"><a href=" https://bdren.zoom.us/j/6702736659?pwd=QTFYRUwxR1V1NjlwZkN2MzRHWHhOUT09">MME 297</a></td>
-				<td class="on"><a href="https://us04web.zoom.us/j/3734606931?pwd=b3FKMWFQOUVrVisybFVvTlBnRFROZz09">BME 203</a></td>
+				<td class="off"><a href="https://bdren.zoom.us/j/62979171553?pwd=a3Ftd2FmOXE3eVBvUmRyV3Bwd284dz09">CSE 391</a></td>
+				<td class="on"><a href=" ">MATH 313</a></td>
+				<td class="on"><a href=" https://bdren.zoom.us/j/67621304284?pwd=UFhRTm9zWkJSSEtXK1Fra0lXZjF0Zz09">BME 311</a></td>
+				<td class="lab" colspan='3' align="center"><a href="https://bdren.zoom.us/j/64673267228">BME 304</a></td>
 				<td> </td>
-				<td> </td>
-				<td  align="center"> </td>
 				<td> </td>
 				<td> </td>
 			</tr>
 		</table>
 		<br>
-		MONDAY 8PM(night) : <font class="off"><a href="https://bdren.zoom.us/j/5809815941">MATH 215 OFFICE HOUR</a></font>
 	</div>
-	<br><br><br>
-
-	<div class="indicator1">  </div><font color="white" size="5px">OFFICE HOUR</font><br>
-	<div class="indicator2">  </div><font color="white" size="5px">ACTIVE CLASSES</font>
-	<div class="indicator3">  </div><font color="white" size="5px">ACTIVE LABS</font><br><br>
-	<font color="white" class="side">LAST UPDATE:01-11-20</font>
 </body>
 </html>
-
-
