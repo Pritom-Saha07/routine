@@ -1,6 +1,6 @@
 #container1{
     height:20vw;
-    width:auto;
+    width:100%;
     background-color: black;
     position: relative;
 }
@@ -46,7 +46,7 @@
 #container3{
     padding: auto;
     height:50vw;
-    width:auto;
+    width:100%;
     
     position:relative;
     
@@ -55,8 +55,8 @@
 #poss{
     margin: auto;
     position:absolute;
-    height:100%;
-    width:auto;
+    height:50vw;
+    width:100%;
     background-image: url(Bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
