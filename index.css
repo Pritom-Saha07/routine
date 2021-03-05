@@ -1,0 +1,121 @@
+#container1{
+    height:20vw;
+    width:100%;
+    background-color: black;
+    position: relative;
+}
+#container5{
+    padding-left: 2vw;
+    height:20vw;
+    font-weight: bold;
+    color: blanchedalmond;
+    font-size: 16vw;
+}
+#container2{
+    height:20vw;
+    width:20vw;
+    float: right;
+    background-image: url(Clock.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position:relative;
+    
+}
+#hour{
+    position: absolute;
+    height: 24%;
+    width: 1%;
+    background-color: black;
+    top: 25%;
+    left: 49.3%;
+    transform-origin: bottom;
+    
+}
+#min{
+    position: absolute;
+    height: 29%;
+    width: 1%;
+    background-color: black;
+    top: 20%;
+    left: 49.3%;
+    transform-origin: bottom;
+}
+#sec{
+    position: absolute;
+    height: 34%;
+    width: 1%;
+    background-color: black;
+    top: 15%;
+    left: 49.3%;
+    transform-origin: bottom;
+}
+
+#container3{
+    height:50vw;
+    width:100%;
+    
+    position:relative;
+    
+}
+#container3::before{
+    content: '';
+    background-image: url(BG.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity:0.4;
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+
+
+#poss{
+    position:absolute;
+    left: 12.5%;
+    top: 5%;
+    font-weight: bold;
+    font-size: 2vw;
+    height:39vw;
+    width:75%;
+    opacity: 1;
+
+
+}
+
+#container4 {
+    height: 11vw;
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 4vw;
+    position: relative;
+}
+#container6{
+    top: 13%;
+    left: 3%;
+    position: absolute;
+
+}
+#button{
+    padding: 1vw 1vw;
+    background-color: cornflowerblue;
+    border-radius: 5%;
+    font-size: 3vw;
+    font-weight:bold;
+
+}
+
+#button:hover{
+    background-color: darkolivegreen;
+}
+#container7 {
+    width: 33vw;
+    height: 10vw;
+    top: 13%;
+    right: 3%;
+    float: right;
+    position: relative;
+}
